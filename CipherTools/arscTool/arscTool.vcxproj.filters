@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="arsc">
+      <UniqueIdentifier>{29e06053-75ad-4ddd-b9ee-b1f6ed61ce3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arscTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="arscToolPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="arscPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArscAnalyse.cpp">
+      <Filter>arsc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arscTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arscToolPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arscPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResChunkBase.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceTypes.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResStringPoolChunk.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTableChunk.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTableConfig.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTableEntry.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTableMap.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTableMapEntry.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTablePackageChunk.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTableType.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTableTypeSpec.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResValue.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ArscAnalyse.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResTableTypeElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arsc_class.h">
+      <Filter>arsc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="arscTool.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\arscTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="arscTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

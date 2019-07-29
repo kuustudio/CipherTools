@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dex">
+      <UniqueIdentifier>{3e7051cc-3d2d-41db-9b25-3a4f636215d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libdex">
+      <UniqueIdentifier>{4c206827-66ef-4776-924b-b326108beaca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dexTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DexToolPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dexPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DexAnalyse.cpp">
+      <Filter>dex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\DexFile.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\CmdUtils.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\DexCatch.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\DexClass.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\DexDataMap.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\DexProto.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\DexSwapVerify.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\InstrUtils.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\Leb128.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\OptInvocation.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\sha1.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\SysUtil.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="libdex\ZipArchive.cpp">
+      <Filter>libdex</Filter>
+    </ClCompile>
+    <ClCompile Include="OpCodeNames.cpp">
+      <Filter>dex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dexTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DexToolPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dexPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DexAnalyse.h">
+      <Filter>dex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\DexFile.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\CmdUtils.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\DexCatch.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\DexClass.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\DexDataMap.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\DexProto.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\InstrUtils.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\Leb128.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\OpCode.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\OptInvocation.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\sha1.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\SysUtil.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="libdex\ZipArchive.h">
+      <Filter>libdex</Filter>
+    </ClInclude>
+    <ClInclude Include="OpCodeNames.h">
+      <Filter>dex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dexTool.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\dexTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dexTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
